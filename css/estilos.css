@@ -1,0 +1,252 @@
+*
+{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0;
+}
+header
+{
+	text-align: center;
+}
+header nav 
+{
+	background: #21445B;
+	margin: 0 auto;
+	width: 90%;
+}
+header nav ul li
+{
+	display: inline-block;
+	margin:30px 0px;
+
+}
+header nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+header nav ul li a:hover
+{
+	color: limegreen;
+	text-decoration: none;
+}
+#btn_menu
+{
+	display: none;
+}
+#idcss
+{
+	display: none;
+}
+#idcss article
+{
+	width: 50%;
+	padding: 15px 0px;
+}
+#idcss article #imgcss1
+{
+	width: 100%;
+}
+#idcss article #imgcss2
+{
+	width: 100%;
+}
+#idcss article #imgcss3
+{
+	width: 100%;
+}
+#idcss article #imgcss4
+{
+	width: 100%;
+}
+#idcss article #imgcss5
+{
+	width: 100%;
+} 
+#idcss article #imgcss6
+{
+	width: 100%;
+} 
+#idcss article #imgcss7
+{
+	width: 100%;
+} 
+#idcss article #imgcss8
+{
+	width: 100%;
+} 
+#idhome
+{
+
+}
+#idhtml 
+{
+	display: none;
+}
+#idhtml article 
+{
+	width: 50%;
+	padding: 15px 0px;
+}
+#idhtml article #imghtml1
+{
+	width: 100%;
+}
+#idhtml article #imghtml2
+{
+	width: 100%;
+}
+#idhtml article #imghtml3
+{
+	width: 100%;
+}
+#idhtml article #imghtml4
+{
+	width: 100%;
+}
+#idjs
+{
+	display: none;
+}
+#idjs article
+{
+	width: 50%;
+} 
+#idjs article #imgjs1
+{
+	padding: 15px 0px;
+	width: 100%;
+} 
+#idperfil
+{
+	display: none;
+}
+#idperfil article
+{
+	/* display: inline-block; */
+	text-align: center;
+	width: 45%;
+}
+#idphp 
+{
+	display: none;	
+}
+#idphp article
+{
+	padding: 15px 0px;
+	width: 50%;
+}
+#idphp article #imgphp1
+{
+	width: 100%;
+}
+#imgprincipal
+{
+	border-radius: 100px;
+}
+#idtext1 h3
+{
+	font-weight: bold;
+	font-family: Arial;
+}
+#FO
+{
+	background: #21445B;
+	color: white;
+	text-align: center;
+}
+#FO a
+{
+	font-weight: bold;
+	display: inline-block;
+}
+#logo
+{
+
+	text-align: center;
+}
+#logo img
+{
+	width: 20%;
+	margin: 30px 0px;
+}
+#parrafo
+{
+	font-family: Arial;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+
+/* Media query */
+@media screen and (max-width: 640px) {
+	header nav 
+	{
+		display: none;
+		padding: 1px 0px;
+		width: 100%;
+	}
+	header nav ul li
+	{
+		display: block;
+		width: 100%;
+	}
+	#btn_menu
+	{
+		display: block;
+	}
+	#idperfil article
+	{
+		display: block;
+		float: none;
+	}
+	#idtext1
+	{
+		font-size: 80%;
+	}
+	#idtext1 h3
+	{
+		font-weight: normal;
+		font-family: Arial;
+		font-size: 150%;
+	}	
+	#imglogo
+	{
+		display: none;
+	}
+	#imgprincipal
+	{
+		width: 70%;
+	}
+	#parrafo
+	{
+		font-family: Arial;
+		font-size: 100%;
+		font-weight: normal;
+	}
+}
+@media screen and (max-width: 480px) {
+	header div h1
+	{
+		font-family: Arial;
+		font-size: 150%;
+	}
+	#imgprincipal
+	{
+		display: none;
+	}
+	#gly
+	{
+		display: none;
+	}
+	.icon
+	{
+		display: none;
+	}
+	#parrafo
+	{
+		font-family: Arial;
+		font-size: 100%;
+		font-weight: normal;
+	}
+}
